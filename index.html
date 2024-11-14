@@ -2,186 +2,165 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prajwal R - Resume</title>
-    <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap" rel="stylesheet">
-    <style>
-        /* Global Styling */
-        body {
-            font-family: 'Times New Roman', serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
-        h1, h2, h3, p {
-            margin: 0 0 10px;
-        }
-        a {
-            color: #333;
-            text-decoration: none;
-        }
-
-        /* Header */
-        header {
-            background-color: #000;
-            color: #fff;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 28px;
-        }
-        .contact-links {
-            display: flex;
-            gap: 15px;
-        }
-
-        /* Main Content */
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 8px;
-        }
-
-        /* Sections */
-        section {
-            margin-bottom: 20px;
-        }
-        section h2 {
-            background-color: #000;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        section ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        section li {
-            margin-bottom: 10px;
-        }
-
-        footer {
-            background-color: #000;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-
-    </style>
+    <meta name="description" content="Prajwal R - Professional Portfolio and Resume" />
+    <title>Prajwal R | Portfolio</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
 </head>
-<body>
+<body oncontextmenu="return false">
 
-    <!-- Header with LinkedIn and GitHub links on the right -->
-    <header>
-        <h1>Prajwal R</h1>
-        <div class="contact-links">
-            <a href="https://www.linkedin.com/in/prajwal-r-424061249" target="_blank">LinkedIn</a>
-            <a href="https://github.com/prajwalr6121" target="_blank">GitHub</a>
+<!-- Navbar -->
+<header>
+    <a href="/" class="logo"><i class="fab fa-node-js"></i> Prajwal R</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+    <div class="content">
+        <h2>Hello, I'm Prajwal <span>R</span></h2>
+        <p>Passionate Developer & Technology Enthusiast</p>
+        <a href="#about" class="btn"><span>About Me</span> <i class="fas fa-arrow-circle-down"></i></a>
+        <div class="socials">
+            <ul class="social-icons">
+                <li><a href="https://www.linkedin.com/in/prajwal-r-424061249" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/prajwalr6121" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="mailto:prajwalr@example.com"><i class="fas fa-envelope"></i></a></li>
+            </ul>
         </div>
-    </header>
-
-    <!-- Main Content Section -->
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Pursuing a B. Com Hons in International Accounting & Finance (ACCA) at PES University, with 9 out of 13 ACCA papers cleared and awarded the Reliance Foundation Undergraduate Scholarship (2022-23). Skilled in Microsoft Office, Tally Prime, JMP, Tableau, PowerBI, and MySQL, with knowledge in taxation, auditing, and compliance. Completed virtual internships with Goldman Sachs, Accenture, JPMorgan Chase, and PwC through Forage. Known for strong leadership and teamwork abilities, adaptability, and a commitment to driving organizational success.</p>
-        </section>
-
-        <section id="experience">
-            <h2>Professional Experience</h2>
-            <ul>
-                <li>
-                    <h3>PWC, Bangalore, Karnataka, India</h3>
-                    <p><strong>Virtual Internship (PowerBI) | Sep’24 – Sep’24</strong></p>
-                    <ul>
-                        <li>Strengthened PowerBI skills to better understand clients' data visualization needs.</li>
-                        <li>Created Power BI dashboards to convey KPIs effectively, demonstrating data visualization expertise.</li>
-                        <li>Provided valuable insights through concise email communication with engagement partners.</li>
-                        <li>Examined HR data on gender KPIs, identifying root causes for gender balance issues at executive levels.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>PWC - US, Bangalore, Karnataka, India</h3>
-                    <p><strong>Virtual Internship (Tax) | Mar’24 – Mar’24</strong></p>
-                    <ul>
-                        <li>Prepared client tax returns and calculated book-to-tax differences.</li>
-                        <li>Abstracted summary of findings for the client.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>JP Morgan Chase & Co, Bangalore, Karnataka, India</h3>
-                    <p><strong>Virtual Internship (Investment Banking) | Mar’24 – Mar’24</strong></p>
-                    <ul>
-                        <li>Identified an M&A target based on strategic and financial criteria.</li>
-                        <li>Constructed a DCF model for valuation and adjusted for a competitor bid and supply chain interruption.</li>
-                        <li>Created a company profile and auction process summary for the client.</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li>
-                    <h3>PES University, Bangalore, Karnataka, India</h3>
-                    <p><strong>Bachelor of Commerce (H) in International Accounting & Finance (Accredited ACCA) | 2022-Present</strong></p>
-                </li>
-                <li>
-                    <h3>Sadhana PU College, Bangalore, Karnataka, India</h3>
-                    <p><strong>Commerce, specialization in ABEC; Karnataka State Board (Class XII) | 2020-2022</strong></p>
-                </li>
-                <li>
-                    <h3>Bangalore International Academy, Bangalore, Karnataka, India</h3>
-                    <p><strong>Karnataka State Board (Class X) | 2017-2020</strong></p>
-                </li>
-            </ul>
-        </section>
-
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Accounting Skills: Financial Accounting, Taxation & Auditing, Data Analysis & Visualization (Tableau, PowerBI), Tally Prime.</li>
-                <li>Technical Skills: Microsoft Office Suite, Microsoft MySQL</li>
-                <li>Certifications: EY Power BI Data Analyst (PL-300), Reading Financial Statements, Fundamentals of Digital Marketing, Introduction to Corporate Finance, Analytics in Finance, Tally Prime, Tally ERP.9, GST, Investment Risk Management, AI in Excel, FP&A-Building a company’s budget</li>
-                <li>Projects: Covid-19 Dashboard Analysis (Tableau Public)</li>
-            </ul>
-        </section>
-
-        <section id="awards">
-            <h2>Awards & Achievements</h2>
-            <ul>
-                <li>Awarded with the prestigious Reliance Foundation Undergraduate Scholarship for the academic year 2022-2023, recognized for academic excellence among 40,000 applicants from premier institutions across India.</li>
-                <li>Advanced to the Moderated Group Discussion (Stage-2) round of the EY Young Tax Professional of the Year 2024-25 competition.</li>
-            </ul>
-        </section>
-
-        <section id="publications">
-            <h2>Publications</h2>
-            <ul>
-                <li>“Role of Technology in GST Compliance in India” (International Journal of Multidisciplinary Research, Oct’24)</li>
-                <li>“Innovations in Financial Inclusion through Fintech Applications” (PES Business Review, Feb’24)</li>
-                <li>“Analysing the Detrimental Effects of Debt-Equity Ratio of JPMorgan Chase & Co” (ER Publications, Oct’23)</li>
-                <li>“A Comparative Study on Libraries in NGOs & Universities” (International Journal of Novel Research & Development, Aug’23)</li>
-            </ul>
-        </section>
     </div>
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile-prajwal.jpg" alt="Prajwal R">
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2024 Prajwal R. All rights reserved.</p>
-    </footer>
+<!-- About Section -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    <div class="row">
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/about-prajwal.jpg" alt="Prajwal R">
+        </div>
+        <div class="content">
+            <h3>I'm Prajwal R</h3>
+            <span class="tag">Full Stack Developer & Tech Enthusiast</span>
+            <p>Based in India, I am a developer focused on creating impactful digital experiences. I have experience building web applications with modern technologies and am dedicated to continuous learning and improvement.</p>
+            <div class="box-container">
+                <div class="box">
+                    <p><span> Email: </span> prajwalr@example.com</p>
+                    <p><span> Location: </span> India</p>
+                </div>
+            </div>
+            <div class="resumebtn">
+                <a href="https://example.com/resume-prajwal.pdf" target="_blank" class="btn"><span>Resume</span><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+    <div class="container">
+        <div class="row" id="skillsContainer">
+            <!-- Skill Example -->
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/javascript.png"/>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <!-- Add more skill bars as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="education" id="education">
+    <h2 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h2>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img draggable="false" src="./assets/images/educat/college.jpg" alt="College">
+            </div>
+            <div class="content">
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <p>XYZ University</p>
+                <h4>2019 - 2023</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+    <div class="container">
+        <div class="content">
+            <div class="image-box">
+                <img draggable="false" src="./assets/images/contact-prajwal.jpg" alt="Contact">
+            </div>
+            <form id="contact-form">
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="field">
+                        <input type="text" name="email" placeholder="Email" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Message" name="message" required></textarea>
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                </div>
+                <div class="button-area">
+                    <button type="submit">Submit <i class="fa fa-paper-plane"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Prajwal R's Portfolio</h3>
+            <p>Thank you for visiting my portfolio. Let’s connect!</p>
+        </div>
+        <div class="box">
+            <h3>Contact Info</h3>
+            <p><i class="fas fa-envelope"></i> prajwalr@example.com</p>
+            <p><i class="fas fa-map-marked-alt"></i> India</p>
+        </div>
+    </div>
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by Prajwal R</h1>
+</section>
+
+<!-- Scroll to Top Button -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./assets/js/script.js"></script>
 
 </body>
 </html>

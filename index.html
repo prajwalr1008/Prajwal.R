@@ -3,188 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prajwal R - Portfolio</title>
+    <title>Prajwal R - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap" rel="stylesheet">
     <style>
-        /* General Styles */
+        /* Global Styling */
         body {
             font-family: 'Times New Roman', serif;
-            color: #ffffff;
-            background-color: #121212;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
         }
-        
-        /* Container Styles */
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            display: flex;
-            background-color: #1e1e1e;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        h1, h2, h3, p {
+            margin: 0 0 10px;
         }
-        
-        /* Sidebar Styles */
-        .sidebar {
-            background-color: #333;
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Header */
+        header {
+            background-color: #000;
+            color: #fff;
             padding: 20px;
-            width: 300px;
             display: flex;
-            flex-direction: column;
+            justify-content: space-between;
             align-items: center;
-            text-align: center;
         }
-        
-        .sidebar img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        
-        .sidebar h2 {
+        header h1 {
             margin: 0;
-            font-size: 24px;
-        }
-        
-        .sidebar .title {
-            margin-top: 5px;
-            font-size: 18px;
-            color: #ff9800;
-        }
-        
-        .contact-info {
-            margin-top: 20px;
-            text-align: left;
-            width: 100%;
-        }
-        
-        .contact-info p {
-            margin: 10px 0;
-            font-size: 14px;
-            color: #ccc;
-        }
-
-        /* Main Content Styles */
-        .main-content {
-            padding: 20px;
-            flex: 1;
-        }
-        
-        .main-content h3 {
-            color: #ff9800;
             font-size: 28px;
-            border-bottom: 2px solid #ff9800;
-            padding-bottom: 5px;
-            margin-top: 0;
+        }
+        .contact-links {
+            display: flex;
+            gap: 15px;
         }
 
-        .main-content section {
+        /* Main Content */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* Sections */
+        section {
             margin-bottom: 20px;
         }
-
-        .skills, .experience, .education, .publications, .volunteering {
-            background-color: #333;
-            padding: 15px;
+        section h2 {
+            background-color: #000;
+            color: white;
+            padding: 10px;
             border-radius: 5px;
-            margin-top: 10px;
+        }
+        section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        section li {
+            margin-bottom: 10px;
         }
 
-        /* Footer Styles */
         footer {
+            background-color: #000;
+            color: white;
             text-align: center;
-            padding: 15px;
-            background-color: #121212;
-            color: #777;
-            font-size: 14px;
-            margin-top: 20px;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
+
     </style>
 </head>
 <body>
+
+    <!-- Header with LinkedIn and GitHub links on the right -->
+    <header>
+        <h1>Prajwal R</h1>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/prajwal-r-424061249" target="_blank">LinkedIn</a>
+            <a href="https://github.com/prajwalr6121" target="_blank">GitHub</a>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
     <div class="container">
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <img src="path/to/avatar.png" alt="Profile Picture">
-            <h2>Prajwal R</h2>
-            <p class="title">Web Developer</p>
-            <div class="contact-info">
-                <p><strong>Email:</strong> prajwalsharma2021@gmail.com</p>
-                <p><strong>Phone:</strong> 6363816031</p>
-                <p><strong>Location:</strong> Bangalore, India</p>
-            </div>
-        </div>
-        
-        <!-- Main Content -->
-        <div class="main-content">
-            <section id="about">
-                <h3>About Me</h3>
-                <p>Pursuing a B. Com Hons in International Accounting & Finance (ACCA) at PES University, with 9 out of 13 ACCA papers cleared...</p>
-            </section>
-            
-            <section id="what-i-do">
-                <h3>What I'm Doing</h3>
-                <div class="skills">
-                    <p><strong>Web Design:</strong> The most modern and high-quality design made at a professional level.</p>
-                    <p><strong>Web Development:</strong> High-quality development of sites at the professional level.</p>
-                    <p><strong>Mobile Apps:</strong> Professional development of applications for iOS and Android.</p>
-                    <p><strong>Photography:</strong> I make high-quality photos of any category at a professional level.</p>
-                </div>
-            </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Pursuing a B. Com Hons in International Accounting & Finance (ACCA) at PES University, with 9 out of 13 ACCA papers cleared and awarded the Reliance Foundation Undergraduate Scholarship (2022-23). Skilled in Microsoft Office, Tally Prime, JMP, Tableau, PowerBI, and MySQL, with knowledge in taxation, auditing, and compliance. Completed virtual internships with Goldman Sachs, Accenture, JPMorgan Chase, and PwC through Forage. Known for strong leadership and teamwork abilities, adaptability, and a commitment to driving organizational success.</p>
+        </section>
 
-            <section id="experience">
-                <h3>Professional Experience</h3>
-                <div class="experience">
-                    <p><strong>PWC (PowerBI Internship) – Bangalore</strong></p>
-                    <p>Completed a job simulation focused on PowerBI to understand clients’ data visualization needs...</p>
-                </div>
-            </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li>
+                    <h3>PWC, Bangalore, Karnataka, India</h3>
+                    <p><strong>Virtual Internship (PowerBI) | Sep’24 – Sep’24</strong></p>
+                    <ul>
+                        <li>Strengthened PowerBI skills to better understand clients' data visualization needs.</li>
+                        <li>Created Power BI dashboards to convey KPIs effectively, demonstrating data visualization expertise.</li>
+                        <li>Provided valuable insights through concise email communication with engagement partners.</li>
+                        <li>Examined HR data on gender KPIs, identifying root causes for gender balance issues at executive levels.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>PWC - US, Bangalore, Karnataka, India</h3>
+                    <p><strong>Virtual Internship (Tax) | Mar’24 – Mar’24</strong></p>
+                    <ul>
+                        <li>Prepared client tax returns and calculated book-to-tax differences.</li>
+                        <li>Abstracted summary of findings for the client.</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>JP Morgan Chase & Co, Bangalore, Karnataka, India</h3>
+                    <p><strong>Virtual Internship (Investment Banking) | Mar’24 – Mar’24</strong></p>
+                    <ul>
+                        <li>Identified an M&A target based on strategic and financial criteria.</li>
+                        <li>Constructed a DCF model for valuation and adjusted for a competitor bid and supply chain interruption.</li>
+                        <li>Created a company profile and auction process summary for the client.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
-            <section id="education">
-                <h3>Education</h3>
-                <div class="education">
-                    <p><strong>PES University</strong> - B.Com in International Accounting & Finance (ACCA)</p>
-                </div>
-            </section>
-            
-            <section id="skills">
-                <h3>Technical Skills</h3>
-                <div class="skills">
-                    <p>Financial Accounting, Taxation & Auditing, Data Analysis & Visualization (Tableau, PowerBI), Tally Prime.</p>
-                </div>
-            </section>
-            
-            <section id="awards">
-                <h3>Awards & Achievements</h3>
-                <div class="awards">
-                    <p>Awarded Reliance Foundation Undergraduate Scholarship for academic excellence (2022-23).</p>
-                </div>
-            </section>
-            
-            <section id="publications">
-                <h3>Publications</h3>
-                <div class="publications">
-                    <p><strong>"Role of Technology in GST Compliance in India"</strong> - International Journal of Multidisciplinary Research</p>
-                </div>
-            </section>
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>PES University, Bangalore, Karnataka, India</h3>
+                    <p><strong>Bachelor of Commerce (H) in International Accounting & Finance (Accredited ACCA) | 2022-Present</strong></p>
+                </li>
+                <li>
+                    <h3>Sadhana PU College, Bangalore, Karnataka, India</h3>
+                    <p><strong>Commerce, specialization in ABEC; Karnataka State Board (Class XII) | 2020-2022</strong></p>
+                </li>
+                <li>
+                    <h3>Bangalore International Academy, Bangalore, Karnataka, India</h3>
+                    <p><strong>Karnataka State Board (Class X) | 2017-2020</strong></p>
+                </li>
+            </ul>
+        </section>
 
-            <section id="volunteering">
-                <h3>Volunteering</h3>
-                <div class="volunteering">
-                    <p><strong>Volunteer – NGO X</strong> - Event Organizer</p>
-                </div>
-            </section>
-        </div>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Accounting Skills: Financial Accounting, Taxation & Auditing, Data Analysis & Visualization (Tableau, PowerBI), Tally Prime.</li>
+                <li>Technical Skills: Microsoft Office Suite, Microsoft MySQL</li>
+                <li>Certifications: EY Power BI Data Analyst (PL-300), Reading Financial Statements, Fundamentals of Digital Marketing, Introduction to Corporate Finance, Analytics in Finance, Tally Prime, Tally ERP.9, GST, Investment Risk Management, AI in Excel, FP&A-Building a company’s budget</li>
+                <li>Projects: Covid-19 Dashboard Analysis (Tableau Public)</li>
+            </ul>
+        </section>
+
+        <section id="awards">
+            <h2>Awards & Achievements</h2>
+            <ul>
+                <li>Awarded with the prestigious Reliance Foundation Undergraduate Scholarship for the academic year 2022-2023, recognized for academic excellence among 40,000 applicants from premier institutions across India.</li>
+                <li>Advanced to the Moderated Group Discussion (Stage-2) round of the EY Young Tax Professional of the Year 2024-25 competition.</li>
+            </ul>
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>“Role of Technology in GST Compliance in India” (International Journal of Multidisciplinary Research, Oct’24)</li>
+                <li>“Innovations in Financial Inclusion through Fintech Applications” (PES Business Review, Feb’24)</li>
+                <li>“Analysing the Detrimental Effects of Debt-Equity Ratio of JPMorgan Chase & Co” (ER Publications, Oct’23)</li>
+                <li>“A Comparative Study on Libraries in NGOs & Universities” (International Journal of Novel Research & Development, Aug’23)</li>
+            </ul>
+        </section>
     </div>
 
-    <!-- Footer -->
     <footer>
-        <p>Created with love by Prajwal R. &copy; 2024</p>
+        <p>&copy; 2024 Prajwal R. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
